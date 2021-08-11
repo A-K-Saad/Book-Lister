@@ -31,7 +31,7 @@ class UI {
         }
     }
 
-    static showAlert(message, className) {
+    /* static showAlert(message, className) {
         const div = document.createElement("div");
         div.className = `alert alert-${className}`;
         div.appendChild(document.createTextNode(message));
@@ -40,7 +40,7 @@ class UI {
         container.insertBefore(div, form);
         //Vanish after 3 seconds
         setTimeout(() => document.querySelector(".alert").remove(), 2000);
-    }
+    } */
 
     static clearFields() {
         document.querySelector("#title").value = "";
