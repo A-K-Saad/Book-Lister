@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: radial-gradient(#00fff35d, #00000098), url(https://images.unsplash.com/photo-1589998059171-988d887df646?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTB8fHxlbnwwfHx8fA%3D%3D&w=1000&q=80);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+header h1{
+    font-family: 'Lobster', cursive;
+    font-size: 4rem;
+}
+header img{
+    width: 7rem;
+}
+.alert{
+    width: 30%;
+    text-align: center;
+    position: fixed;
+    right: 0;
+    left: 0;
+    color: #fff;
+    bottom: 0;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #ff7171;
+    padding: 30px 0;
+    font-size: 20px;
+}
+i{
+    pointer-events: none;
+}
+th{
+    vertical-align: middle;
+    width: 30%;
+}
+td{
+    vertical-align: middle;
+    width: 30%;
+    align-items: center;
+}
+.add-btn{
+    padding: 10px 110px;
+}
+.form-control{
+    background: #dcdccb !important;
+    padding: .6rem .75rem;
+    border-radius: 0;
+}
+.form-control:focus{
+    background: #dcdccb;
+}
+@media only screen and (max-width:688px) {
+    body{
+        background-position: center;}
+    header h1{
+        font-size: 3rem;
+    }
+    header img{
+        width: 5.5rem;
+    }
+    .alert{
+        width: 90%;
+    }
+}
